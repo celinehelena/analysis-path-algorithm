@@ -6,9 +6,9 @@ Este projeto tem como objetivo avaliar o desempenho de três algoritmos de camin
   ---
  ## 📁Estrutura do Repositório
 - `README.md` — Este documento.
-- `images/` — Pasta contendo imagens geradas durante o trabalho.
-- `Ingredientes.csv ` — Arquivo com os dados organizados.
-- `Ingredientes.ipynb` —  Arquivo com o código usado.
+- `assets/` — Pasta contendo mapas e gráficos geradas durante o trabalho.
+- `analise_menor_caminho.csv ` — Tabela com as métricas de avaliação.
+- `U2T1.ipynb` —  Arquivo com o código usado.
 
 ---
 ## 🏥Contexto
@@ -46,10 +46,16 @@ Cada algoritmo foi adaptado para funcionar com o grafo gerado pelo OSMNx, e os s
 ---
 ## 📊 Resultados
 A partir dos mapas gerados, é possível observar que os três algoritmos identificaram as **mesmas rotas** para todos os bairros e, consequentemente, distância percorridas idênticas. Isso indica consistência na lógica de cálculo do caminho mais curto, como mostra os mapas a seguir.
---colocar imagem do mapa
+
+![Mapa com as rotas dos algoritmos](assets/mapas/all_routes.png)
+
 Em relação ao tempo de execução, o  **Dijkstra com min-heap** apresentou desempenho superior ao Dijkstra tradicional devido a utilizar uma estrutura de dados que permite priorizar a expansão do nó com menor distancia.  Como se trata de uma árvore mínima, o menor nó sempre estará no topo da estrutura, o que torna a busca mais eficiente. No entanto, entre os três algoritmos, o **OSMNx** foi, em média, o mais rápido, embora em alguns casos tenha sido superado pelo min-heap.
+
+![Gráfico do tempo de execução](assets/graficos/graphics_time.png)
+
 Quanto às emissões de carbono, as diferenças entre as **pegada de carbono computacional** entre os algoritmos foram pequenas. O Dijkstra com min-heap e o OSMNx apresentaram, em média, o menor impacto energético.
-–grafico 
+
+![Gráfico do emissão de carbono](assets/graficos/graphic_carbon.png)
 
 ---
 ## ✅ Conclusões
