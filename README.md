@@ -69,7 +69,7 @@ Assim, este projeto demonstra a importância de se considerar não apenas a corr
 
 ---
 ## Vídeo explicativo
-🎥 [Link para o vídeo no Loom](https://www.loom.com/share/0ba0187a430f4a79b246313a7c2c7598?sid=2b2790f1-061d-4ab1-82fa-a6c7ce20ef0a)
+🎥 [Link para o vídeo no Loom](https://www.loom.com/share/8c1209698ce44e1e819ac3e34f0019e4?sid=2f30ff29-9121-49b8-8acf-52ba45a9d7e8)
 ## Referências
 
 - NetworkX documentation: https://networkx.org/
