@@ -18,7 +18,7 @@ Os serviços de urgência móvel têm como fator decisivo o tempo de resposta e 
 ---
 ## ⚙️ Metodologia
 Toda a análise foi dividida em etapas principais:
- ###1. Coleta de dados e definição de pontos de interesse:
+ ### 1. Coleta de dados e definição de pontos de interesse:
  - Mapa da cidade de Natal obtido por meio da biblioteca **OSMNx**.
 - Seleção dos 10 bairros mais populosos de acordo com o Censo 2022.
 - Mapeamento das coordenadas do ponto de origem e dos destinos.
